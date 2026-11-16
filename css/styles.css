@@ -655,7 +655,7 @@ h1 em {
 
 @media (max-width: 520px) {
     nav {
-        height: 68px
+        height: 100px
     }
 
     .brand {
