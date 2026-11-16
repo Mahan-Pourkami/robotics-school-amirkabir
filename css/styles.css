@@ -452,6 +452,32 @@ h1 em {
         linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.75)),
         url("../assets/images/raseberry.webp");
 }
+.program:nth-child(2) {
+    background-image:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.75)),
+        url("../assets/images/linux.webp");
+}
+.program:nth-child(3) {
+    background-image:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.75)),
+        url("../assets/images/autocar.webp");
+}
+.program:nth-child(4) {
+    background-image:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),
+    url("../assets/images/python-data.webp");
+}
+
+.program:nth-child(5) {
+    background-image:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),
+    url("../assets/images/esp.webp");
+}
+.program:nth-child(6) {
+    background-image:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),
+    url("../assets/images/3d_print.webp");
+}
 
 .gallery {
     display: grid;
@@ -925,4 +951,17 @@ body.dark-mode .site-footer {
 .scroll-to-top:hover {
     background-color: var(green);
     color: #000;
+}
+
+#typing-text {
+    color: var(--green);
+    border-left: 3px solid var(--green);
+    padding-left: 5px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
