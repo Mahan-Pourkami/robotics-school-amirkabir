@@ -412,8 +412,7 @@ h1 em {
         linear-gradient(
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.75)
-        ),
-        url("../assets/images/program.jpg");
+        );
 
     background-size: cover;
     background-position: center;
