@@ -4,21 +4,6 @@ document.getElementById('themeBtn').addEventListener('click', () => {
 });
 if (localStorage.getItem('ak-theme') === 'light') document.body.classList.add('light');
 
-const menuToggle = document.getElementById("menuToggle");
-const mainMenu = document.getElementById("mainMenu");
-
-menuToggle.addEventListener("click", () => {
-    const isOpen = mainMenu.classList.toggle("is-open");
-
-    menuToggle.setAttribute("aria-expanded", isOpen);
-});
-
-mainMenu.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-        mainMenu.classList.remove("is-open");
-        menuToggle.setAttribute("aria-expanded", "false");
-    });
-});
 
 const typingElement = document.getElementById("typing-text");
 
